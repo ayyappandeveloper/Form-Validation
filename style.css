@@ -1,0 +1,45 @@
+form {
+    margin: 60px auto;
+    width: 20%;
+    color: white;
+
+}
+
+.form {
+    background-color: #00b4d8;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+input {
+    padding: 10px 30px;
+
+    border: none;
+    border-bottom: 1px solid #48cae4;
+    outline: none;
+    border-radius: 6px;
+
+}
+
+button {
+    padding: 10px 50px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #023e8a;
+}
+
+.nameerror,
+.gmailerror,
+.passworderror {
+    color: rgb(0, 0, 0);
+    display: none;
+}
